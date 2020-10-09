@@ -31,7 +31,7 @@
  WRITE(spin_file_FID,'(i5)') natoms
  
  IF (periodicA .or. periodicB .or. periodicC) THEN
-   WRITE(spin_file_FID,'(a,3f10.6,a,3f10.6,a,3f10.6,a)') 'jmolscript: load "" {1 1 1} spacegroup "x,y,z" unitcell [{ ',V1(1),&
+   WRITE(spin_file_FID,'(a,3f13.6,a,3f13.6,a,3f13.6,a)') 'jmolscript: load "" {1 1 1} spacegroup "x,y,z" unitcell [{ ',V1(1),&
    V1(2),V1(3),' }, { ',V2(1),V2(2),V2(3),' }, { ',V3(1),V3(2),V3(3),' }]'
    FLUSH(spin_file_FID)
  ELSE    

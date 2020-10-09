@@ -1,0 +1,19 @@
+<periodicity along A, B, and C vectors>
+.true.
+.true.
+.true.
+</periodicity along A, B, and C vectors>
+
+<atomic densities directory complete path>
+/home/tamanz/bin/atomic_densities/
+</atomic densities directory complete path>
+
+<input filename>
+CP2K_water_example
+</input filename>
+
+<number of core electrons>
+1 0
+8 2
+</number of core electrons>
+

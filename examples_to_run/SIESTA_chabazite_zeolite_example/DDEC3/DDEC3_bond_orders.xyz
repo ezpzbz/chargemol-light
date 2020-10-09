@@ -1,0 +1,845 @@
+   36
+jmolscript: load "" {1 1 1} spacegroup "x,y,z" unitcell [{      9.470200     0.000000     0.000000 }, {     -0.721600     9.442668     0.000000 }, {     -0.721600    -0.778849     9.410493 }]
+Si      0.135660      2.474187      8.233157       3.394036
+Si      7.984839      0.734243      3.132076       3.397919
+Si      2.466669      8.190369      0.980498       3.396587
+Si      5.585492      8.350230      1.157688       3.399778
+Si      7.911801      0.658652      6.254125       3.401508
+Si      0.060301      5.595385      8.406040       3.394627
+Si      7.913334      6.190869      1.158089       3.394968
+Si      0.062043      7.932626      6.255724       3.397418
+Si      5.586137      0.477127      8.408285       3.403595
+Si      2.466112      0.318234      8.233576       3.394337
+Si      0.136520      8.009010      3.131926       3.398727
+Si      7.985329      3.073479      0.982228       3.399045
+O       1.594792      1.713679      8.420162       2.112170
+O       0.010530      0.001298      3.031212       2.211645
+O       8.112861      2.204376      2.384522       2.119437
+O       3.026558      0.237796      0.246139       2.209972
+O       1.593287      8.254155      2.385783       2.117033
+O       0.012367      3.030308      0.246466       2.209379
+O       6.455064      6.953421      0.978704       2.115876
+O       8.036137      8.666078      6.362982       2.210948
+O       6.455908      0.412457      7.001623       2.117742
+O       8.033225      5.635717      9.144335       2.209436
+O      -0.072824      6.462418      7.002957       2.117724
+O       5.032485      8.433657      9.149217       2.212512
+O       1.998300      6.936212     -0.013989       2.186802
+O      -0.706791      1.938775      6.898925       2.187011
+O       6.773237     -0.216217      2.495616       2.187146
+O       6.771139      2.513720     -0.013582       2.188443
+O      -0.710292      6.726024      2.490851       2.188019
+O       1.993546     -0.558915      6.897133       2.185635
+O       0.503159      7.593108      4.694095       2.076998
+O       4.026246      0.798911      7.951230       2.081254
+O       7.541367      4.601426      1.448982       2.075557
+O       7.538931      1.074516      4.693053       2.075538
+O       4.026118      7.864863      1.440135       2.078971
+O       0.498577      4.065149      7.945967       2.078992
+    
+ Chargemol version 3.5 September 26, 2017.
+ See ddec.sourceforge.net for latest version.
+    
+    
+ The sum of bond orders (SBO) for each atom in the unit cell are listed above.
+ All bond orders greater than     0.001000 are printed below.
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      1 ( Si ) in the reference unit cell.
+  
+ Bonded to the ( -1,   0,   0) translated image of atom number     5 ( Si ) with bond order =     0.0077    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( Si ) with bond order =     0.0090    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( Si ) with bond order =     0.0074    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   1) translated image of atom number    12 ( Si ) with bond order =     0.0071    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( O  ) with bond order =     0.8210    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    16 ( O  ) with bond order =     0.0021    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    18 ( O  ) with bond order =     0.8530    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,   0) translated image of atom number    20 ( O  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    21 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    22 ( O  ) with bond order =     0.0067    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    25 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.8513    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   1) translated image of atom number    28 ( O  ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    30 ( O  ) with bond order =     0.0038    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   1) translated image of atom number    33 ( O  ) with bond order =     0.0010    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( O  ) with bond order =     0.8103    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        3.394036
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      2 ( Si ) in the reference unit cell.
+  
+ Bonded to the (  0,  -1,   0) translated image of atom number     4 ( Si ) with bond order =     0.0078    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( Si ) with bond order =     0.0093    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,  -1,   0) translated image of atom number    11 ( Si ) with bond order =     0.0070    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    12 ( Si ) with bond order =     0.0073    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    14 ( O  ) with bond order =     0.8553    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    15 ( O  ) with bond order =     0.8243    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    18 ( O  ) with bond order =     0.0020    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    19 ( O  ) with bond order =     0.0016    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    20 ( O  ) with bond order =     0.0066    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,  -1) translated image of atom number    24 ( O  ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( O  ) with bond order =     0.8510    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( O  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,  -1,   0) translated image of atom number    29 ( O  ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,  -1,   0) translated image of atom number    31 ( O  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    34 ( O  ) with bond order =     0.8086    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        3.397919
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      3 ( Si ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( Si ) with bond order =     0.0091    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     6 ( Si ) with bond order =     0.0076    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,  -1) translated image of atom number    10 ( Si ) with bond order =     0.0071    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    11 ( Si ) with bond order =     0.0073    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    14 ( O  ) with bond order =     0.0020    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    16 ( O  ) with bond order =     0.8552    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    17 ( O  ) with bond order =     0.8229    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,  -1) translated image of atom number    22 ( O  ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    23 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    24 ( O  ) with bond order =     0.0064    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( O  ) with bond order =     0.8500    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    27 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,  -1) translated image of atom number    30 ( O  ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,  -1) translated image of atom number    32 ( O  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( O  ) with bond order =     0.8105    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        3.396587
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      4 ( Si ) in the reference unit cell.
+  
+ Bonded to the (  0,   1,   0) translated image of atom number     2 ( Si ) with bond order =     0.0078    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( Si ) with bond order =     0.0091    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( Si ) with bond order =     0.0073    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,  -1) translated image of atom number     9 ( Si ) with bond order =     0.0072    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   0) translated image of atom number    14 ( O  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    15 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    16 ( O  ) with bond order =     0.0066    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    19 ( O  ) with bond order =     0.8223    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    22 ( O  ) with bond order =     0.0021    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    24 ( O  ) with bond order =     0.8565    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    27 ( O  ) with bond order =     0.8507    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    28 ( O  ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,  -1) translated image of atom number    32 ( O  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( O  ) with bond order =     0.8114    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        3.399778
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      5 ( Si ) in the reference unit cell.
+  
+ Bonded to the (  1,   0,   0) translated image of atom number     1 ( Si ) with bond order =     0.0077    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( Si ) with bond order =     0.0093    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,  -1,   0) translated image of atom number     8 ( Si ) with bond order =     0.0071    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( Si ) with bond order =     0.0075    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    13 ( O  ) with bond order =     0.0016    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    14 ( O  ) with bond order =     0.0068    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   1) translated image of atom number    18 ( O  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    20 ( O  ) with bond order =     0.8551    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( O  ) with bond order =     0.8242    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    24 ( O  ) with bond order =     0.0021    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.8514    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( O  ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    28 ( O  ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    30 ( O  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,  -1,   0) translated image of atom number    31 ( O  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    34 ( O  ) with bond order =     0.8114    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        3.401508
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      6 ( Si ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( Si ) with bond order =     0.0090    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number     3 ( Si ) with bond order =     0.0076    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   1) translated image of atom number     7 ( Si ) with bond order =     0.0070    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( Si ) with bond order =     0.0074    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   1) translated image of atom number    16 ( O  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    17 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    18 ( O  ) with bond order =     0.0065    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    20 ( O  ) with bond order =     0.0020    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    22 ( O  ) with bond order =     0.8525    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( O  ) with bond order =     0.8227    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    25 ( O  ) with bond order =     0.8511    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    29 ( O  ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    30 ( O  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   1) translated image of atom number    33 ( O  ) with bond order =     0.0010    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( O  ) with bond order =     0.8103    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        3.394627
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      7 ( Si ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( Si ) with bond order =     0.0073    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,  -1) translated image of atom number     6 ( Si ) with bond order =     0.0070    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    11 ( Si ) with bond order =     0.0077    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    12 ( Si ) with bond order =     0.0092    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   0) translated image of atom number    14 ( O  ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    17 ( O  ) with bond order =     0.0016    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    18 ( O  ) with bond order =     0.0067    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    19 ( O  ) with bond order =     0.8218    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    22 ( O  ) with bond order =     0.8554    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    24 ( O  ) with bond order =     0.0020    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    25 ( O  ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    27 ( O  ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.8503    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    33 ( O  ) with bond order =     0.8092    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,  -1) translated image of atom number    36 ( O  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        3.394968
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      8 ( Si ) in the reference unit cell.
+  
+ Bonded to the ( -1,   1,   0) translated image of atom number     5 ( Si ) with bond order =     0.0071    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( Si ) with bond order =     0.0074    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    10 ( Si ) with bond order =     0.0077    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    11 ( Si ) with bond order =     0.0092    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    13 ( O  ) with bond order =     0.0016    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    14 ( O  ) with bond order =     0.0068    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   1) translated image of atom number    16 ( O  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    20 ( O  ) with bond order =     0.8531    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    22 ( O  ) with bond order =     0.0020    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( O  ) with bond order =     0.8240    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    25 ( O  ) with bond order =     0.0038    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    26 ( O  ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    30 ( O  ) with bond order =     0.8511    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    31 ( O  ) with bond order =     0.8102    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   1,   0) translated image of atom number    34 ( O  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        3.397418
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      9 ( Si ) in the reference unit cell.
+  
+ Bonded to the (  0,  -1,   1) translated image of atom number     4 ( Si ) with bond order =     0.0072    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( Si ) with bond order =     0.0075    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( Si ) with bond order =     0.0091    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    12 ( Si ) with bond order =     0.0079    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    15 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    16 ( O  ) with bond order =     0.0066    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   1) translated image of atom number    18 ( O  ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    20 ( O  ) with bond order =     0.0021    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( O  ) with bond order =     0.8235    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    24 ( O  ) with bond order =     0.8561    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    27 ( O  ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    28 ( O  ) with bond order =     0.8526    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    30 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    32 ( O  ) with bond order =     0.8121    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   1) translated image of atom number    35 ( O  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        3.403595
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     10 ( Si ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( Si ) with bond order =     0.0074    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   1) translated image of atom number     3 ( Si ) with bond order =     0.0071    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     8 ( Si ) with bond order =     0.0077    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( Si ) with bond order =     0.0091    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( O  ) with bond order =     0.8212    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    16 ( O  ) with bond order =     0.8532    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    18 ( O  ) with bond order =     0.0020    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,   0) translated image of atom number    20 ( O  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    23 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    24 ( O  ) with bond order =     0.0064    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   1) translated image of atom number    25 ( O  ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    28 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    30 ( O  ) with bond order =     0.8501    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    32 ( O  ) with bond order =     0.8116    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   1) translated image of atom number    35 ( O  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        3.394337
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     11 ( Si ) in the reference unit cell.
+  
+ Bonded to the ( -1,   1,   0) translated image of atom number     2 ( Si ) with bond order =     0.0070    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( Si ) with bond order =     0.0073    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     7 ( Si ) with bond order =     0.0077    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( Si ) with bond order =     0.0092    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    14 ( O  ) with bond order =     0.8543    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    16 ( O  ) with bond order =     0.0021    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    17 ( O  ) with bond order =     0.8238    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    19 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    20 ( O  ) with bond order =     0.0066    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,  -1) translated image of atom number    22 ( O  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( O  ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   1,   0) translated image of atom number    27 ( O  ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.8521    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    30 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    31 ( O  ) with bond order =     0.8102    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   1,   0) translated image of atom number    34 ( O  ) with bond order =     0.0010    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        3.398727
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     12 ( Si ) in the reference unit cell.
+  
+ Bonded to the (  1,   0,  -1) translated image of atom number     1 ( Si ) with bond order =     0.0071    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( Si ) with bond order =     0.0073    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( Si ) with bond order =     0.0092    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     9 ( Si ) with bond order =     0.0079    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    14 ( O  ) with bond order =     0.0020    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    15 ( O  ) with bond order =     0.8240    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    18 ( O  ) with bond order =     0.8556    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    21 ( O  ) with bond order =     0.0016    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    22 ( O  ) with bond order =     0.0067    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,  -1) translated image of atom number    24 ( O  ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,  -1) translated image of atom number    26 ( O  ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( O  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( O  ) with bond order =     0.8507    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    33 ( O  ) with bond order =     0.8100    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,  -1) translated image of atom number    36 ( O  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        3.399045
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     13 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( Si ) with bond order =     0.8210    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     5 ( Si ) with bond order =     0.0016    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     8 ( Si ) with bond order =     0.0016    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( Si ) with bond order =     0.8212    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    16 ( O  ) with bond order =     0.0859    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    18 ( O  ) with bond order =     0.0854    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,   0) translated image of atom number    20 ( O  ) with bond order =     0.0042    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    25 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.0613    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    28 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    30 ( O  ) with bond order =     0.0620    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    32 ( O  ) with bond order =     0.0803    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( O  ) with bond order =     0.0809    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.112170
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     14 ( O  ) in the reference unit cell.
+  
+ Bonded to the ( -1,   0,   0) translated image of atom number     2 ( Si ) with bond order =     0.8553    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     3 ( Si ) with bond order =     0.0020    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,   0) translated image of atom number     4 ( Si ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     5 ( Si ) with bond order =     0.0068    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,   0) translated image of atom number     7 ( Si ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     8 ( Si ) with bond order =     0.0068    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    11 ( Si ) with bond order =     0.8543    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    12 ( Si ) with bond order =     0.0020    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    15 ( O  ) with bond order =     0.0849    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    16 ( O  ) with bond order =     0.0063    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    17 ( O  ) with bond order =     0.0849    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    18 ( O  ) with bond order =     0.0063    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,   0) translated image of atom number    19 ( O  ) with bond order =     0.0042    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,   0) translated image of atom number    20 ( O  ) with bond order =     0.0212    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,  -1) translated image of atom number    22 ( O  ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,  -1) translated image of atom number    24 ( O  ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.0024    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    27 ( O  ) with bond order =     0.0705    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    29 ( O  ) with bond order =     0.0701    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    30 ( O  ) with bond order =     0.0024    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    31 ( O  ) with bond order =     0.0595    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    34 ( O  ) with bond order =     0.0588    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.211645
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     15 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( Si ) with bond order =     0.8243    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     4 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     9 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    12 ( Si ) with bond order =     0.8240    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    14 ( O  ) with bond order =     0.0849    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    18 ( O  ) with bond order =     0.0854    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,  -1) translated image of atom number    24 ( O  ) with bond order =     0.0045    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( O  ) with bond order =     0.0612    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( O  ) with bond order =     0.0620    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    33 ( O  ) with bond order =     0.0812    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    34 ( O  ) with bond order =     0.0818    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.119437
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     16 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,  -1) translated image of atom number     1 ( Si ) with bond order =     0.0021    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     3 ( Si ) with bond order =     0.8552    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     4 ( Si ) with bond order =     0.0066    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,  -1) translated image of atom number     6 ( Si ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,  -1) translated image of atom number     8 ( Si ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     9 ( Si ) with bond order =     0.0066    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    10 ( Si ) with bond order =     0.8532    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    11 ( Si ) with bond order =     0.0021    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    13 ( O  ) with bond order =     0.0859    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    14 ( O  ) with bond order =     0.0063    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    17 ( O  ) with bond order =     0.0859    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    18 ( O  ) with bond order =     0.0064    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,  -1) translated image of atom number    20 ( O  ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,  -1) translated image of atom number    22 ( O  ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,  -1) translated image of atom number    23 ( O  ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,  -1) translated image of atom number    24 ( O  ) with bond order =     0.0201    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    25 ( O  ) with bond order =     0.0699    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( O  ) with bond order =     0.0023    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( O  ) with bond order =     0.0023    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    30 ( O  ) with bond order =     0.0692    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    32 ( O  ) with bond order =     0.0597    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    35 ( O  ) with bond order =     0.0591    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.209972
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     17 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( Si ) with bond order =     0.8229    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     6 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     7 ( Si ) with bond order =     0.0016    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    11 ( Si ) with bond order =     0.8238    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    14 ( O  ) with bond order =     0.0849    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    16 ( O  ) with bond order =     0.0859    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,  -1) translated image of atom number    22 ( O  ) with bond order =     0.0042    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( O  ) with bond order =     0.0618    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    27 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.0618    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    30 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    31 ( O  ) with bond order =     0.0811    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( O  ) with bond order =     0.0807    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.117033
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     18 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,  -1) translated image of atom number     1 ( Si ) with bond order =     0.8530    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     2 ( Si ) with bond order =     0.0020    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,  -1) translated image of atom number     5 ( Si ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     6 ( Si ) with bond order =     0.0065    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     7 ( Si ) with bond order =     0.0067    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,  -1) translated image of atom number     9 ( Si ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    10 ( Si ) with bond order =     0.0020    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    12 ( Si ) with bond order =     0.8556    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    13 ( O  ) with bond order =     0.0854    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    14 ( O  ) with bond order =     0.0063    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    15 ( O  ) with bond order =     0.0854    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    16 ( O  ) with bond order =     0.0064    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,  -1) translated image of atom number    20 ( O  ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,  -1) translated image of atom number    21 ( O  ) with bond order =     0.0042    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,  -1) translated image of atom number    22 ( O  ) with bond order =     0.0211    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,  -1) translated image of atom number    24 ( O  ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( O  ) with bond order =     0.0023    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    26 ( O  ) with bond order =     0.0693    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    28 ( O  ) with bond order =     0.0698    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.0024    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    33 ( O  ) with bond order =     0.0589    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    36 ( O  ) with bond order =     0.0592    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.209379
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     19 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   1,   0) translated image of atom number     2 ( Si ) with bond order =     0.0016    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( Si ) with bond order =     0.8223    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( Si ) with bond order =     0.8218    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    11 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   0) translated image of atom number    14 ( O  ) with bond order =     0.0042    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    22 ( O  ) with bond order =     0.0853    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    24 ( O  ) with bond order =     0.0852    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    27 ( O  ) with bond order =     0.0623    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.0617    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    33 ( O  ) with bond order =     0.0818    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( O  ) with bond order =     0.0813    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.115876
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     20 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  1,   1,   0) translated image of atom number     1 ( Si ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number     2 ( Si ) with bond order =     0.0066    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number     5 ( Si ) with bond order =     0.8551    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number     6 ( Si ) with bond order =     0.0020    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number     8 ( Si ) with bond order =     0.8531    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number     9 ( Si ) with bond order =     0.0021    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   0) translated image of atom number    10 ( Si ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    11 ( Si ) with bond order =     0.0066    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   0) translated image of atom number    13 ( O  ) with bond order =     0.0042    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   0) translated image of atom number    14 ( O  ) with bond order =     0.0212    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   1) translated image of atom number    16 ( O  ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   1) translated image of atom number    18 ( O  ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    21 ( O  ) with bond order =     0.0854    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( O  ) with bond order =     0.0063    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    23 ( O  ) with bond order =     0.0858    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    24 ( O  ) with bond order =     0.0064    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   0) translated image of atom number    26 ( O  ) with bond order =     0.0707    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    27 ( O  ) with bond order =     0.0024    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.0023    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   0) translated image of atom number    30 ( O  ) with bond order =     0.0710    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    31 ( O  ) with bond order =     0.0586    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    34 ( O  ) with bond order =     0.0582    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.210948
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     21 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  1,   0,   0) translated image of atom number     1 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( Si ) with bond order =     0.8242    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( Si ) with bond order =     0.8235    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    12 ( Si ) with bond order =     0.0016    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   1) translated image of atom number    18 ( O  ) with bond order =     0.0042    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    20 ( O  ) with bond order =     0.0854    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    24 ( O  ) with bond order =     0.0853    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.0612    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    28 ( O  ) with bond order =     0.0615    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    30 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    32 ( O  ) with bond order =     0.0809    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    34 ( O  ) with bond order =     0.0814    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.117742
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     22 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  1,   0,   0) translated image of atom number     1 ( Si ) with bond order =     0.0067    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   1) translated image of atom number     3 ( Si ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number     4 ( Si ) with bond order =     0.0021    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number     6 ( Si ) with bond order =     0.8525    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number     7 ( Si ) with bond order =     0.8554    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number     8 ( Si ) with bond order =     0.0020    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   1) translated image of atom number    11 ( Si ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    12 ( Si ) with bond order =     0.0067    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   1) translated image of atom number    14 ( O  ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   1) translated image of atom number    16 ( O  ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   1) translated image of atom number    17 ( O  ) with bond order =     0.0042    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   1) translated image of atom number    18 ( O  ) with bond order =     0.0211    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    19 ( O  ) with bond order =     0.0853    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    20 ( O  ) with bond order =     0.0063    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    23 ( O  ) with bond order =     0.0854    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    24 ( O  ) with bond order =     0.0065    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   1) translated image of atom number    25 ( O  ) with bond order =     0.0697    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.0023    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    28 ( O  ) with bond order =     0.0024    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   1) translated image of atom number    29 ( O  ) with bond order =     0.0696    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    33 ( O  ) with bond order =     0.0583    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    36 ( O  ) with bond order =     0.0601    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.209436
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     23 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   1) translated image of atom number     3 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( Si ) with bond order =     0.8227    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( Si ) with bond order =     0.8240    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    10 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   1) translated image of atom number    16 ( O  ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    20 ( O  ) with bond order =     0.0858    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    22 ( O  ) with bond order =     0.0854    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    25 ( O  ) with bond order =     0.0623    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    30 ( O  ) with bond order =     0.0610    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    31 ( O  ) with bond order =     0.0816    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( O  ) with bond order =     0.0807    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.117724
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     24 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   1,   1) translated image of atom number     2 ( Si ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number     3 ( Si ) with bond order =     0.0064    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number     4 ( Si ) with bond order =     0.8565    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number     5 ( Si ) with bond order =     0.0021    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number     7 ( Si ) with bond order =     0.0020    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number     9 ( Si ) with bond order =     0.8561    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    10 ( Si ) with bond order =     0.0064    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   1) translated image of atom number    12 ( Si ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   1) translated image of atom number    14 ( O  ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   1) translated image of atom number    15 ( O  ) with bond order =     0.0045    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   1) translated image of atom number    16 ( O  ) with bond order =     0.0201    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   1,   1) translated image of atom number    18 ( O  ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    19 ( O  ) with bond order =     0.0852    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    20 ( O  ) with bond order =     0.0064    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    21 ( O  ) with bond order =     0.0853    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( O  ) with bond order =     0.0065    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    25 ( O  ) with bond order =     0.0023    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   1) translated image of atom number    27 ( O  ) with bond order =     0.0697    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   1) translated image of atom number    28 ( O  ) with bond order =     0.0700    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    30 ( O  ) with bond order =     0.0022    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    32 ( O  ) with bond order =     0.0589    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    35 ( O  ) with bond order =     0.0587    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.212512
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     25 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,  -1) translated image of atom number     1 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( Si ) with bond order =     0.8500    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     6 ( Si ) with bond order =     0.8511    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     7 ( Si ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     8 ( Si ) with bond order =     0.0038    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,  -1) translated image of atom number    10 ( Si ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    11 ( Si ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    13 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    16 ( O  ) with bond order =     0.0699    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    17 ( O  ) with bond order =     0.0618    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    18 ( O  ) with bond order =     0.0023    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    19 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,  -1) translated image of atom number    22 ( O  ) with bond order =     0.0697    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    23 ( O  ) with bond order =     0.0623    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    24 ( O  ) with bond order =     0.0023    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.0124    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,  -1) translated image of atom number    30 ( O  ) with bond order =     0.0123    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( O  ) with bond order =     0.0847    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    36 ( O  ) with bond order =     0.0847    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.186802
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     26 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( Si ) with bond order =     0.8513    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     2 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     5 ( Si ) with bond order =     0.8514    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     8 ( Si ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     9 ( Si ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( Si ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   1) translated image of atom number    12 ( Si ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( O  ) with bond order =     0.0613    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    14 ( O  ) with bond order =     0.0024    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    15 ( O  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    18 ( O  ) with bond order =     0.0693    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,   0) translated image of atom number    20 ( O  ) with bond order =     0.0707    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    21 ( O  ) with bond order =     0.0612    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    22 ( O  ) with bond order =     0.0023    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( O  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   1) translated image of atom number    28 ( O  ) with bond order =     0.0123    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    30 ( O  ) with bond order =     0.0128    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    34 ( O  ) with bond order =     0.0834    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( O  ) with bond order =     0.0852    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.187011
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     27 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( Si ) with bond order =     0.8510    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     3 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     4 ( Si ) with bond order =     0.8507    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( Si ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     7 ( Si ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     9 ( Si ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,  -1,   0) translated image of atom number    11 ( Si ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    12 ( Si ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    14 ( O  ) with bond order =     0.0705    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    15 ( O  ) with bond order =     0.0612    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    16 ( O  ) with bond order =     0.0023    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    17 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    19 ( O  ) with bond order =     0.0623    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    20 ( O  ) with bond order =     0.0024    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,  -1) translated image of atom number    24 ( O  ) with bond order =     0.0697    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( O  ) with bond order =     0.0118    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,  -1,   0) translated image of atom number    29 ( O  ) with bond order =     0.0126    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    34 ( O  ) with bond order =     0.0845    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    35 ( O  ) with bond order =     0.0850    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.187146
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     28 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  1,   0,  -1) translated image of atom number     1 ( Si ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( Si ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     4 ( Si ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     5 ( Si ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     9 ( Si ) with bond order =     0.8526    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    10 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    12 ( Si ) with bond order =     0.8507    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    13 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    15 ( O  ) with bond order =     0.0620    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    16 ( O  ) with bond order =     0.0023    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    18 ( O  ) with bond order =     0.0698    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    19 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    21 ( O  ) with bond order =     0.0615    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    22 ( O  ) with bond order =     0.0024    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,  -1) translated image of atom number    24 ( O  ) with bond order =     0.0700    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,  -1) translated image of atom number    26 ( O  ) with bond order =     0.0123    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( O  ) with bond order =     0.0118    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    32 ( O  ) with bond order =     0.0854    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    33 ( O  ) with bond order =     0.0842    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.188443
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     29 ( O  ) in the reference unit cell.
+  
+ Bonded to the ( -1,   1,   0) translated image of atom number     2 ( Si ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( Si ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     4 ( Si ) with bond order =     0.0037    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number     6 ( Si ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     7 ( Si ) with bond order =     0.8503    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( Si ) with bond order =     0.0018    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    11 ( Si ) with bond order =     0.8521    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    12 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    14 ( O  ) with bond order =     0.0701    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    15 ( O  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    17 ( O  ) with bond order =     0.0618    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    18 ( O  ) with bond order =     0.0024    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    19 ( O  ) with bond order =     0.0617    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    20 ( O  ) with bond order =     0.0023    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,  -1) translated image of atom number    22 ( O  ) with bond order =     0.0696    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( O  ) with bond order =     0.0124    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   1,   0) translated image of atom number    27 ( O  ) with bond order =     0.0126    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    31 ( O  ) with bond order =     0.0848    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    33 ( O  ) with bond order =     0.0846    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.188019
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     30 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( Si ) with bond order =     0.0038    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   1) translated image of atom number     3 ( Si ) with bond order =     0.0035    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number     5 ( Si ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     6 ( Si ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number     8 ( Si ) with bond order =     0.8511    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( Si ) with bond order =     0.8501    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    11 ( Si ) with bond order =     0.0017    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( O  ) with bond order =     0.0620    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    14 ( O  ) with bond order =     0.0024    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    16 ( O  ) with bond order =     0.0692    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    17 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,  -1,   0) translated image of atom number    20 ( O  ) with bond order =     0.0710    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( O  ) with bond order =     0.0015    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    23 ( O  ) with bond order =     0.0610    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    24 ( O  ) with bond order =     0.0022    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   1) translated image of atom number    25 ( O  ) with bond order =     0.0123    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.0128    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    31 ( O  ) with bond order =     0.0836    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    32 ( O  ) with bond order =     0.0847    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.185635
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     31 ( O  ) in the reference unit cell.
+  
+ Bonded to the ( -1,   1,   0) translated image of atom number     2 ( Si ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   1,   0) translated image of atom number     5 ( Si ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( Si ) with bond order =     0.8102    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    11 ( Si ) with bond order =     0.8102    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    14 ( O  ) with bond order =     0.0595    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    17 ( O  ) with bond order =     0.0811    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    20 ( O  ) with bond order =     0.0586    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( O  ) with bond order =     0.0816    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.0848    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    30 ( O  ) with bond order =     0.0836    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.076998
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     32 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,  -1,   1) translated image of atom number     3 ( Si ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   1) translated image of atom number     4 ( Si ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( Si ) with bond order =     0.8121    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( Si ) with bond order =     0.8116    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( O  ) with bond order =     0.0803    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    16 ( O  ) with bond order =     0.0597    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( O  ) with bond order =     0.0809    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    24 ( O  ) with bond order =     0.0589    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    28 ( O  ) with bond order =     0.0854    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    30 ( O  ) with bond order =     0.0847    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.081254
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     33 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  1,   0,  -1) translated image of atom number     1 ( Si ) with bond order =     0.0010    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,  -1) translated image of atom number     6 ( Si ) with bond order =     0.0010    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( Si ) with bond order =     0.8092    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    12 ( Si ) with bond order =     0.8100    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    15 ( O  ) with bond order =     0.0812    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    18 ( O  ) with bond order =     0.0589    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    19 ( O  ) with bond order =     0.0818    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    22 ( O  ) with bond order =     0.0583    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( O  ) with bond order =     0.0842    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    29 ( O  ) with bond order =     0.0846    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.075557
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     34 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( Si ) with bond order =     0.8086    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( Si ) with bond order =     0.8114    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,  -1,   0) translated image of atom number     8 ( Si ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,  -1,   0) translated image of atom number    11 ( Si ) with bond order =     0.0010    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    14 ( O  ) with bond order =     0.0588    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    15 ( O  ) with bond order =     0.0818    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,  -1,   0) translated image of atom number    20 ( O  ) with bond order =     0.0582    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( O  ) with bond order =     0.0814    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  1,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.0834    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( O  ) with bond order =     0.0845    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.075538
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     35 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( Si ) with bond order =     0.8105    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( Si ) with bond order =     0.8114    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,  -1) translated image of atom number     9 ( Si ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,  -1) translated image of atom number    10 ( Si ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    16 ( O  ) with bond order =     0.0591    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    17 ( O  ) with bond order =     0.0807    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    19 ( O  ) with bond order =     0.0813    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,  -1) translated image of atom number    24 ( O  ) with bond order =     0.0587    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( O  ) with bond order =     0.0847    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   1,   0) translated image of atom number    27 ( O  ) with bond order =     0.0850    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.078971
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     36 ( O  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( Si ) with bond order =     0.8103    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( Si ) with bond order =     0.8103    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   1) translated image of atom number     7 ( Si ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   1) translated image of atom number    12 ( Si ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( O  ) with bond order =     0.0809    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    18 ( O  ) with bond order =     0.0592    The average spin polarization of this bonding =     0.0000
+ Bonded to the ( -1,   0,   0) translated image of atom number    22 ( O  ) with bond order =     0.0601    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( O  ) with bond order =     0.0807    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   1) translated image of atom number    25 ( O  ) with bond order =     0.0847    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( O  ) with bond order =     0.0852    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        2.078992
+    
+ 2017/10/01  14:49:14

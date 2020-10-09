@@ -1,0 +1,47 @@
+    3
+Nonperiodic system
+O      0.000000    -0.000000     0.435357     0.357035
+O      0.000000     1.096192    -0.217678    -0.178517
+O      0.000000    -1.096192    -0.217678    -0.178517
+ 
+ Chargemol version 3.5 September 26, 2017.
+See ddec.sourceforge.net for latest version.
+ 
+Computational parameters:
+Number of radial integration shells =    100
+Cutoff radius (pm) =    500
+Error in the integrated total number of electrons before renormalization (e) =    6.7413E-11
+Charge convergence tolerance =    1.0000E-05
+Minimum radius for electron cloud penetration fitting (pm) =    200
+Minimum decay exponent for electron density of buried atom tails =   1.7500
+Maximum decay exponent for electron density of buried atom tails =  2.5000
+Number of iterations to convergence =      7
+ 
+The following XYZ coordinates are in angstroms. The atomic dipoles and quadrupoles are in atomic units.
+atom number, atomic symbol, x, y, z, net_charge, dipole_x, dipole_y, dipole_z, dipole_mag, Qxy, Qxz, Qyz,Q(x^2-y^2), Q(3z^2 - R^2), three eigenvalues of traceless quadrupole moment tensor
+    1 O      0.000000    -0.000000     0.435357     0.357035     0.000000    -0.000000    -0.241448     0.241448     0.000000    -0.000000     0.000000     0.033746    -0.412777    -0.133456     0.048367     0.085089
+    2 O      0.000000     1.096192    -0.217678    -0.178517    -0.000000    -0.066668     0.026705     0.071818     0.000000    -0.000000    -0.203124     0.022265    -0.734785    -0.328224     0.131534     0.196690
+    3 O      0.000000    -1.096192    -0.217678    -0.178517    -0.000000     0.066668     0.026705     0.071817    -0.000000    -0.000000     0.203124     0.022265    -0.734785    -0.328224     0.131534     0.196690
+ 
+The sperically averaged electron density of each atom fit to a function of the form exp(a - br) for r >=rmin_cloud_penetration
+atom number,atomic symbol, x, y, z, a, b, Rsquared where a and b are in atomic units and Rsquared is the squared correlation coefficient
+    1 O      0.000000    -0.000000     0.435357     1.410969     2.591604     0.997788
+    2 O      0.000000     1.096192    -0.217678    -0.116095     2.178005     0.998800
+    3 O      0.000000    -1.096192    -0.217678    -0.116057     2.178011     0.998800
+ 
+  
+ Since the system is non-periodic, the total dipole and quadrupole moments were computed relative to the system center of mass.
+ Multipole moments (in atomic units) using the net atomic charges:
+ Partial_charge_dipole_x =    0.0000   Partial_charge_dipole_y =    0.0000   Partial_charge_dipole_z =    0.4406     Partial_charge_dipole_magnitude =    0.4406
+ Partial_charge_quadrupole_xy =    0.0000   Partial_charge_quadrupole_xz =    0.0000   Partial_charge_quadrupole_yz =   -0.0000   Partial_charge_quadrupole_x2minusy2 =    1.5321   Partial_charge_quadrupole_3z2minusr2 =    1.8946
+ Eigenvalues of traceless quadrupole moment tensor =   -1.0818   0.4503   0.6315
+ Multipole moments (in atomic units) using the net atomic charges and atomic dipoles:
+ Dipole_x =   -0.0000   Dipole_y =   -0.0000   Dipole_z =    0.2526   Dipole_magnitude =    0.2526
+ Quadrupole_xy =   -0.0000   Quadrupole_xz =    0.0000   Quadrupole_yz =   -0.0000   Quadrupole_x2minusy2 =    2.0845   Quadrupole_3z2minusr2 =    1.5645
+ Eigenvalues of traceless quadrupole moment tensor =   -1.3030   0.5215   0.7815
+ Multipole moments (in atomic units) using the net atomic charges, atomic dipoles, and atomic quadrupoles:
+ Dipole_x =   -0.0000   Dipole_y =   -0.0000   Dipole_z =    0.2526   Dipole_magnitude =    0.2526
+ Full_quadrupole_xy =    0.0000   Full_quadrupole_xz =    0.0000   Full_quadrupole_yz =    0.0000   Full_quadrupole_x2minusy2 =    2.1628   Full_quadrupole_3z2minusr2 =   -0.3178
+ Eigenvalues of traceless quadrupole moment tensor =   -1.0284  -0.1059   1.1344
+  
+ 2017/09/30  19:26:02

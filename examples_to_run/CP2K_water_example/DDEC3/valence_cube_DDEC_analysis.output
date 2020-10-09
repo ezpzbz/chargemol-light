@@ -1,0 +1,610 @@
+  
+ ******************** TIME CONTROL ********************
+ Starting Chargemol version 3.5 September 26, 2017.
+ ******************************************************
+  
+ Starting DDEC program
+ 2017/09/30  18:59:34
+ Copyright (c) 2014, 2015, 2016 by Thomas A. Manz and Nidia Gabaldon Limas. Rights reserved.
+  
+ **************** THREAD INFORMATION ******************
+ Job running using OpenMP.
+ The number of parallel threads is:            4
+  
+ ******************************************************
+  
+ /home/tamanz/bin/atomic_densities/                                                                                                                                                                      
+  
+ ******************** TIME CONTROL ********************
+ Starting format_valence_cube_density
+ ******************************************************
+  
+ inputfile = "valence_density.cube"
+ parameters
+   3.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+   160.00000000000000       0.17716199999999999        0.0000000000000000        0.0000000000000000     
+   160.00000000000000        0.0000000000000000       0.17716199999999999        0.0000000000000000     
+   160.00000000000000        0.0000000000000000        0.0000000000000000       0.17716199999999999     
+ The maximum pixel electron correction was:    0.0000000000000000     
+ The number of pixel corrections was:            0
+ sum_negative_density
+  -1.0093592054345519E-004
+  
+ ******************** TIME CONTROL ********************
+ Starting add_missing_core_density
+ ******************************************************
+  
+ center_nabc =
+           0          11          12
+           0          19           5
+           0           3           6
+ delta_na=     55
+ delta_nb=     55
+ delta_nc=     55
+  
+ ******************** TIME CONTROL ********************
+ Starting check_grid_spacing
+ ******************************************************
+  
+ The grid spacing in your electron density input file is adequate.
+  
+ ******************** TIME CONTROL ********************
+ Finished check_grid_spacing in    2.5000000372529030E-002 seconds
+ ******************************************************
+  
+ Checking to see that all core electrons are accounted for:
+  
+ Printing atom number, atomic number, core electrons, and missing core for each atom.
+ (Missing core electrons will be inserted using stored core electron reference densities.)
+    1    8     2.000000    2
+    2    1     0.000000    0
+    3    1     0.000000    0
+ Finished the check for missing core electrons.
+  
+ ******************** TIME CONTROL ********************
+ Finished add_missing_core_density in    9.0999998152256012E-002 seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Finished format_valence_cube_density in    3.0889999866485596      seconds
+ ******************************************************
+  
+ ncore =        2.0000
+ nvalence =        8.0000
+ pixelvolume =    5.5605E-03
+ numerically integrated valence density =    8.0001E+00
+ sum_valence_occupancy_correction =    0.0000E+00
+ checkme =    1.2600E-04
+ The grid spacing is adequate and all electrons are properly accounted for.
+ Calculation will proceed.
+ Making sure the atomic coordinates for periodic directions are inside the reference unit cell.
+ The adjusted atomic coordinates are
+    0.0000    1.9487    2.1267
+    0.0000    3.3733    0.9679
+    0.0000    0.4795    1.0252
+  
+ The adjusted center_nabc is
+           0          11          12
+           0          19           5
+           0           3           6
+  
+ ******************** TIME CONTROL ********************
+ Starting core_iterator
+ ******************************************************
+  
+ Iteratively solving for the core charge distributions:
+ Iteration=   1
+ change=   3.683237E+00
+ Iteration=   2
+ change=   1.886926E-09
+ Iteration=   3
+ change=   0.000000E+00
+ Iteration=   4
+ change=   0.000000E+00
+ Iteration=   5
+ change=   0.000000E+00
+ Iteration=   6
+ change=   0.000000E+00
+ Correcting the core density grid
+ iteration=            1
+ iteration=            2
+ iteration=            3
+ iteration=            4
+ iteration=            5
+ iteration=            6
+ iteration=            7
+ Core density grid corrected in the following number of iterations: 
+ iter=            7
+  
+ ******************** TIME CONTROL ********************
+ Finished core_iterator in   0.54699999094009399      seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Starting valence_iterator
+ ******************************************************
+  
+ Iteratively solving for the atomic partial charge distributions:
+ Reference weighting:   0.21428571428571427     
+ iteration=            1
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.285339      0.142359      0.142980
+ Maximum change:  6.285339E+00
+ Maximum density change:  4.681980E+01
+ Information for noniterative Hirshfeld method will be printed now.
+  
+ ******************** TIME CONTROL ********************
+ Starting local_multipole_moment_analysis
+ ******************************************************
+  
+ Multipole analysis for each of the expansion sites.
+ XYZ coordinates, net charges, and multipoles are in atomic units. Dipoles and quadrupoles are for valence electrons.
+ center number, atomic number, x, y, z, net_charge, dipole_x, dipole_y, dipole_z, dipole_mag, Qxy, Qxz, Qyz, Q(x^2-y^2), Q(3z^2 - R^2),three eigenvalues of traceless quadrupole moment tensor
+     1     8  0.000000  1.948738  2.126661 -0.285339  0.000000 -0.002432 -0.144896  0.144916  0.000000 -0.000000 -0.006509 -0.572590 -0.070937 -0.274472 -0.023777  0.298249
+     2     1  0.000000  3.373294  0.967874  0.142359  0.000000  0.180097 -0.133958  0.224454 -0.000000 -0.000000  0.031806 -0.133228  0.006978 -0.067777 -0.010920  0.078697
+     3     1  0.000000  0.479465  1.025172  0.142980 -0.000000 -0.184896 -0.126288  0.223909  0.000000  0.000000 -0.034034 -0.131331  0.014539 -0.068089 -0.010798  0.078887
+  
+ ******************** TIME CONTROL ********************
+ Finished local_multipole_moment_analysis in    4.3999999761581421E-002 seconds
+ ******************************************************
+  
+ Hirshfeld analysis finished, calculation of iterative AIM will proceed.
+ iteration=            2
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.436040      0.217897      0.218143
+ Maximum change:  1.507017E-01
+ Maximum density change:  1.838811E-02
+ iteration=            3
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.537760      0.268815      0.268945
+ Maximum change:  1.017195E-01
+ Maximum density change:  3.833149E-03
+ iteration=            4
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.607232      0.303581      0.303651
+ Maximum change:  6.947265E-02
+ Maximum density change:  1.658643E-03
+Iterations to converge reshaping: 
+    5
+ iteration=            5
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.655844      0.327899      0.327946
+ Maximum change:  4.861189E-02
+ Maximum density change:  1.129038E-03
+Iterations to converge reshaping: 
+    5
+ iteration=            6
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.690333      0.345149      0.345184
+ Maximum change:  3.448846E-02
+ Maximum density change:  8.182380E-04
+Iterations to converge reshaping: 
+    5
+ iteration=            7
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.715053      0.357512      0.357541
+ Maximum change:  2.471990E-02
+ Maximum density change:  5.889321E-04
+Iterations to converge reshaping: 
+    5
+ iteration=            8
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.732919      0.366447      0.366472
+ Maximum change:  1.786609E-02
+ Maximum density change:  4.252782E-04
+Iterations to converge reshaping: 
+    5
+ iteration=            9
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.745916      0.372947      0.372969
+ Maximum change:  1.299709E-02
+ Maximum density change:  3.084982E-04
+Iterations to converge reshaping: 
+    4
+ iteration=           10
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.755420      0.377700      0.377720
+ Maximum change:  9.503920E-03
+ Maximum density change:  2.247560E-04
+Iterations to converge reshaping: 
+    4
+ iteration=           11
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.762398      0.381189      0.381209
+ Maximum change:  6.978055E-03
+ Maximum density change:  1.643620E-04
+Iterations to converge reshaping: 
+    4
+ iteration=           12
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.767538      0.383760      0.383778
+ Maximum change:  5.140164E-03
+ Maximum density change:  1.205705E-04
+Iterations to converge reshaping: 
+    4
+ iteration=           13
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.771334      0.385658      0.385676
+ Maximum change:  3.796206E-03
+ Maximum density change:  8.868135E-05
+Iterations to converge reshaping: 
+    4
+ iteration=           14
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.774144      0.387063      0.387081
+ Maximum change:  2.809514E-03
+ Maximum density change:  6.537983E-05
+Iterations to converge reshaping: 
+    4
+ iteration=           15
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.776227      0.388105      0.388122
+ Maximum change:  2.082793E-03
+ Maximum density change:  4.829618E-05
+Iterations to converge reshaping: 
+    4
+ iteration=           16
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.777773      0.388878      0.388895
+ Maximum change:  1.546167E-03
+ Maximum density change:  3.573575E-05
+Iterations to converge reshaping: 
+    4
+ iteration=           17
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.778922      0.389453      0.389469
+ Maximum change:  1.149091E-03
+ Maximum density change:  2.647875E-05
+Iterations to converge reshaping: 
+    4
+ iteration=           18
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.779777      0.389880      0.389896
+ Maximum change:  8.547794E-04
+ Maximum density change:  1.964331E-05
+Iterations to converge reshaping: 
+    4
+ iteration=           19
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.780413      0.390199      0.390214
+ Maximum change:  6.363368E-04
+ Maximum density change:  1.458746E-05
+Iterations to converge reshaping: 
+    4
+ iteration=           20
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.780887      0.390436      0.390451
+ Maximum change:  4.740223E-04
+ Maximum density change:  1.084249E-05
+Iterations to converge reshaping: 
+    4
+ iteration=           21
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.781240      0.390613      0.390628
+ Maximum change:  3.533014E-04
+ Maximum density change:  8.065114E-06
+Iterations to converge reshaping: 
+    4
+ iteration=           22
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.781504      0.390744      0.390759
+ Maximum change:  2.634459E-04
+ Maximum density change:  6.003149E-06
+Iterations to converge reshaping: 
+    4
+ iteration=           23
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.781700      0.390843      0.390857
+ Maximum change:  1.965207E-04
+ Maximum density change:  4.470928E-06
+Iterations to converge reshaping: 
+    4
+ iteration=           24
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.781847      0.390916      0.390931
+ Maximum change:  1.466466E-04
+ Maximum density change:  3.331459E-06
+Iterations to converge reshaping: 
+    4
+ iteration=           25
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.781956      0.390971      0.390985
+ Maximum change:  1.094621E-04
+ Maximum density change:  2.483491E-06
+Iterations to converge reshaping: 
+    4
+ iteration=           26
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.782038      0.391012      0.391026
+ Maximum change:  8.172722E-05
+ Maximum density change:  1.852078E-06
+Iterations to converge reshaping: 
+    4
+ iteration=           27
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.782099      0.391042      0.391057
+ Maximum change:  6.103344E-05
+ Maximum density change:  1.381671E-06
+Iterations to converge reshaping: 
+    4
+ iteration=           28
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.782145      0.391065      0.391079
+ Maximum change:  4.558853E-05
+ Maximum density change:  1.031055E-06
+Iterations to converge reshaping: 
+    4
+ iteration=           29
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.782179      0.391082      0.391096
+ Maximum change:  3.405810E-05
+ Maximum density change:  7.696208E-07
+Iterations to converge reshaping: 
+    4
+ iteration=           30
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.782204      0.391095      0.391109
+ Maximum change:  2.544802E-05
+ Maximum density change:  5.746141E-07
+Iterations to converge reshaping: 
+    4
+ iteration=           31
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.782223      0.391105      0.391119
+ Maximum change:  1.901732E-05
+ Maximum density change:  4.291109E-07
+Iterations to converge reshaping: 
+    4
+ iteration=           32
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.782237      0.391112      0.391126
+ Maximum change:  1.421347E-05
+ Maximum density change:  3.205139E-07
+Iterations to converge reshaping: 
+    4
+ iteration=           33
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.782248      0.391117      0.391131
+ Maximum change:  1.062432E-05
+ Maximum density change:  2.394419E-07
+Iterations to converge reshaping: 
+    4
+ iteration=           34
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.782256      0.391121      0.391135
+ Maximum change:  7.942321E-06
+ Maximum density change:  1.789047E-07
+Iterations to converge reshaping: 
+    4
+ iteration=           35
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.782262      0.391124      0.391138
+ Maximum change:  5.937932E-06
+ Maximum density change:  1.336919E-07
+Iterations to converge reshaping: 
+    4
+ iteration=           36
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.782266      0.391126      0.391140
+ Maximum change:  4.439772E-06
+ Maximum density change:  9.991825E-08
+Iterations to converge reshaping: 
+    4
+ iteration=           37
+ Normalization:   0.999991525
+ Net atomic charges for the current iteration: 
+     -0.782270      0.391128      0.391142
+ Maximum change:  3.319864E-06
+ Maximum density change:  7.468535E-08
+  
+ ******************** TIME CONTROL ********************
+ Finished valence_iterator in    3.9240000247955322      seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Starting local_multipole_moment_analysis
+ ******************************************************
+  
+ Multipole analysis for each of the expansion sites.
+ XYZ coordinates, net charges, and multipoles are in atomic units. Dipoles and quadrupoles are for valence electrons.
+ center number, atomic number, x, y, z, net_charge, dipole_x, dipole_y, dipole_z, dipole_mag, Qxy, Qxz, Qyz, Q(x^2-y^2), Q(3z^2 - R^2),three eigenvalues of traceless quadrupole moment tensor
+     1     8  0.000000  1.948738  2.126661 -0.782270  0.000000  0.002950  0.159152  0.159179  0.000000 -0.000000 -0.004552 -0.499945  0.017309 -0.252857  0.005684  0.247173
+     2     1  0.000000  3.373294  0.967874  0.391128  0.000000  0.040046 -0.002208  0.040107 -0.000000 -0.000000 -0.007205 -0.060223  0.022637 -0.033885  0.005101  0.028783
+     3     1  0.000000  0.479465  1.025172  0.391142 -0.000000 -0.039995 -0.000468  0.039998  0.000000  0.000000  0.006551 -0.061236  0.021153 -0.034144  0.005100  0.029044
+  
+ ******************** TIME CONTROL ********************
+ Finished local_multipole_moment_analysis in    4.3000001460313797E-002 seconds
+ ******************************************************
+  
+ Since the system is periodic, total multipole moment analysis will not be performed.
+ Calculation of the electron cloud penetration terms
+  
+ ******************** TIME CONTROL ********************
+ Starting perform_BO_analysis
+ ******************************************************
+  
+ Starting Effective Bond Order (BO) Analysis
+  
+ ******************** TIME CONTROL ********************
+ Starting prepare_BO_density_grids
+ ******************************************************
+  
+ Preparing density grids for bond order analysis ...
+ Total density grid corrected in the following number of iterations:     2
+ The total integrated number of electrons is       10.000000
+ Grid preparation complete.
+  
+ ******************** TIME CONTROL ********************
+ Finished prepare_BO_density_grids in    6.8999998271465302E-002 seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Starting compute_local_atomic_exchange_vectors
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Finished compute_local_atomic_exchange_vectors in    7.4000000953674316E-002 seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Starting initialize_bond_pair_matrix
+ ******************************************************
+  
+ Initializing the bond pair matrix ...
+ The total number of symmetry unique atom pairs to include in the bond pair matrix is
+ num_sym_unique_bond_pairs:      3
+ The bond pair matrix has been initialized.
+  
+ ******************** TIME CONTROL ********************
+ Finished initialize_bond_pair_matrix in    3.0000000260770321E-003 seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Starting compute_summed_contact_exchange
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Finished compute_summed_contact_exchange in    3.2000001519918442E-002 seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Starting integrate_bonding_terms
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Finished integrate_bonding_terms in    5.6000001728534698E-002 seconds
+ ******************************************************
+  
+  
+ ******************** TIME CONTROL ********************
+ Starting calculate_final_BOs
+ ******************************************************
+  
+ Checking for consistency in the summed contact exchange
+ The maximum error in the summed contact exchange is     0.000000
+  
+ The sum of contact exchanges for each atom are:
+    1.115823
+    0.575514
+    0.574908
+  
+ The sum of BOs for each atom are:
+    1.756630
+    0.896629
+    0.896310
+  
+ The final bond pair matrix is
+     1     2    0.000000    0.000000    0.000000  -55.000000   55.000000  -36.000000   66.000000  -43.000000   60.000000    0.558214    0.558214    0.562568    0.281981    0.998334    0.333915    0.333359    0.891573    0.878475
+     1     3    0.000000    0.000000    0.000000  -55.000000   55.000000  -44.000000   58.000000  -43.000000   61.000000    0.557609    0.557609    0.561951    0.281501    0.998333    0.333322    0.332766    0.890375    0.878156
+     2     3    0.000000    0.000000    0.000000  -55.000000   55.000000  -36.000000   58.000000  -49.000000   60.000000    0.017299    0.017299    0.018284    0.000840    0.999977    0.000890    0.000890    0.018189    0.018154
+ The legend for the bond pair matrix follows:
+ Columns 1 and 2 = atom numbers
+ Columns 3 to 5 = repeata, repeatb, repeatc (i.e., periodic translation of second atom)
+ Columns 6 to 11 = corners of the shared parallepiped: min na, max na, min nb, max nb, min nc, max nc
+ Columns 12 =  contact exchange
+ Columns 13 =  a term for computing average spin polarization of bonding
+ Columns 14 =  overlap population
+ Columns 15 =  the integrated second order atomic exchange propensities for computing bond order
+ Columns 16 =  the coordination term constructed from tanh function
+ Columns 17 =  the pairwise term
+ Columns 18 =  expansion term combining coordination and pairwise terms
+ Columns 19 =  bond index before imposing the atom self-exchange constraint
+ Columns 20 =  final bond order
+ 
+ The atom self-exchange constraint affected (by at least 0.1_dp*BO_print_cutoff)      2 bond orders.
+ 
+  
+ ******************** TIME CONTROL ********************
+ Finished calculate_final_BOs in    6.0000000521540642E-003 seconds
+ ******************************************************
+  
+ Bond order analysis complete.
+  
+ ******************** TIME CONTROL ********************
+ Finished perform_BO_analysis in   0.23999999463558197      seconds
+ ******************************************************
+  
+ The computed Rsquared moments of the atoms (in bohr^2) are: 
+    14.149466     1.182945     1.181508
+ The computed Rcubed moments of the atoms (in bohr^3) are: 
+    28.857730     2.648948     2.640086
+ The computed Rfourth moments of the atoms (in bohr^4) are: 
+    73.290284     7.661109     7.599276
+ Normal termination of Chargemol program.
+ Copyright (c) 2014, 2015, 2016, 2017 by Thomas A. Manz and Nidia Gabaldon Limas. Rights reserved.
+ Use and distribution of this program is subject to certain licensing restrictions.
+ Please see ddec.sourceforge.net for details.
+  
+ Please cite the following journal references when using this program to compute DDEC6 charges:
+ N. Gabaldon Limas and T. A. Manz,  "Introducing DDEC6 atomic population analysis: part 2. 
+ Computed results for a wide range of periodic and nonperiodic materials," RSC Advances, Vol. 6 (2016) 45727-45747.
+ T. A. Manz and N. Gabaldon Limas, "Introducing DDEC6 atomic population analysis: part 1.
+ Charge partitioning theory and methodology," RSC Advances, Vol. 6 (2016) 47771-47801.
+ If desired, you can also cite references listed below for the DDEC3 and earlier methods.
+  
+ Please cite the following journal references when using this program to compute DDEC, Hirshfeld, or ISA charges:
+ Thomas A. Manz and David S. Sholl, "Improved Atoms-in-Molecule Charge Partitioning Functional for Simultaneously Reproducing the Electrostatic
+ Potential and Chemical States in Periodic and Non-Periodic Materials", J. Chem. Theory Comput., Vol. 8 (2012) 2844-2867.
+ Thomas A. Manz and David S. Sholl, "Chemically Meaningful Atomic Charges that Reproduce the Electrostatic Potential in Periodic and Nonperiodic
+ Materials", J. Chem. Theory Comput., Vol. 6 (2010) 2455-2468.
+  
+ Please cite the following journal reference when using this program to compute atomic spin moments:
+ Thomas A. Manz and David S. Sholl, "Methods for Computing Accurate Atomic Spin Moments for Collinear and Noncollinear Magnetism in Periodic and
+ Nonperiodic Materials", J. Chem. Theory Comput., Vol. 7 (2011) 4146-4164.
+  
+ Please cite the following reference when using this program to compute bond orders:
+ Thomas A. Manz, "Introducing DDEC6 atomic population analysis: part 3. Comprehensive method to compute bond orders.", RSC Advances, Vol. 7 (2017) 45552-45581.
+  
+ Exiting Chargemol
+ 2017/09/30  18:59:42
+  
+ ******************** TIME CONTROL ********************
+ Finished chargemol in    7.9340000152587891      seconds
+ ******************************************************
+  

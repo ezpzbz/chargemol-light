@@ -1,0 +1,17 @@
+<periodicity along A, B, and C vectors>
+.false.
+.false.
+.false.
+</periodicity along A, B, and C vectors>
+
+<atomic densities directory complete path>
+/home/tamanz/bin/atomic_densities/
+</atomic densities directory complete path>
+
+<input filename>
+ozone_triplet_CCSD.wfx
+</input filename>
+
+<charge type>
+DDEC3
+</charge type>

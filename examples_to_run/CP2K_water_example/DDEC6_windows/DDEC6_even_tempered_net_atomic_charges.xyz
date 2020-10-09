@@ -1,0 +1,32 @@
+    3
+jmolscript: load "" {1 1 1} spacegroup "x,y,z" unitcell [{     15.000016     0.000000     0.000000 }, {      0.000000    15.000016     0.000000 }, {      0.000000     0.000000    15.000016 }]
+O      0.000000     1.031228     1.125381    -0.757097
+H      0.000000     1.785070     0.512177     0.378410
+H      0.000000     0.253722     0.542498     0.378687
+ 
+ Chargemol version 3.5 September 26, 2017.
+See ddec.sourceforge.net for latest version.
+ 
+Computational parameters:
+Number of radial integration shells =    100
+Cutoff radius (pm) =    500
+Error in the integrated total number of electrons before renormalization (e) =    1.2600E-04
+Charge convergence tolerance =    1.0000E-05
+Minimum radius for electron cloud penetration fitting (pm) =    200
+Minimum decay exponent for electron density of buried atom tails =   1.7500
+Maximum decay exponent for electron density of buried atom tails =  2.5000
+Number of iterations to convergence =      7
+ 
+The following XYZ coordinates are in angstroms. The atomic dipoles and quadrupoles are in atomic units.
+atom number, atomic symbol, x, y, z, net_charge, dipole_x, dipole_y, dipole_z, dipole_mag, Qxy, Qxz, Qyz,Q(x^2-y^2), Q(3z^2 - R^2), three eigenvalues of traceless quadrupole moment tensor
+    1 O      0.000000     1.031228     1.125381    -0.757097     0.000000     0.002751     0.132928     0.132957     0.000000    -0.000000    -0.005018    -0.518322     0.020501    -0.262578     0.006733     0.255845
+    2 H      0.000000     1.785070     0.512177     0.378410     0.000000     0.041558    -0.003375     0.041695    -0.000000    -0.000000    -0.009382    -0.073103     0.026446    -0.040959     0.005511     0.035449
+    3 H      0.000000     0.253722     0.542498     0.378687    -0.000000    -0.041490    -0.001533     0.041518     0.000000     0.000000     0.008560    -0.073978     0.024424    -0.041060     0.005472     0.035588
+ 
+The sperically averaged electron density of each atom fit to a function of the form exp(a - br) for r >=rmin_cloud_penetration
+atom number,atomic symbol, x, y, z, a, b, Rsquared where a and b are in atomic units and Rsquared is the squared correlation coefficient
+    1 O      0.000000     1.031228     1.125381    -2.674111     1.580516     0.974653
+    2 H      0.000000     1.785070     0.512177    -4.051436     1.609142     0.979628
+    3 H      0.000000     0.253722     0.542498    -3.833000     1.655081     0.983974
+ 
+ 2017/09/30  20:08:19

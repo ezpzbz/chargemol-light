@@ -1,0 +1,13 @@
+<periodicity along A, B, and C vectors>
+.true.
+.true.
+.true.
+</periodicity along A, B, and C vectors>
+
+<atomic densities directory complete path>
+E:\atomic_densities\
+</atomic densities directory complete path>
+
+<input filename>
+total_density.cube
+</input filename>
